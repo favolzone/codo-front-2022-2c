@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400&display=swap');
+*{font-family: 'Roboto', sans-serif;}
+
+body {
+    
+    background-color: bisque;
+}
+.menuconteiner {
+ list-style-type: none;
+ background-color: black;
+ padding: 15px;
+ height: 30px;
+}
+
+.menuconteiner li a { 
+    text-decoration: none;
+    display: block;
+    height: 50px;
+   
+    color: white;
+}
+.menuconteiner li a.active {
+    font-size: 1.2em;
+    color: blueviolet;
+}
+.menuconteiner li a:hover{
+    color: brown;
+}
+.menuconteiner li {
+    display: inline-block;
+    margin: 5px;
+}
